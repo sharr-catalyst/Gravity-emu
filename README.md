@@ -1,7 +1,7 @@
 # Gravity Simulator
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)](https://www.python.org/)
 [![OpenGL](https://img.shields.io/badge/OpenGL-2.1+-red?style=flat-square)](https://pypi.org/project/PyOpenGL/3.1.10/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](https://github.com/sharr-catalyst/Gravity-emu?tab=MIT-1-ov-file#readme)
  
 A real-time 3D N-body gravity simulator with a spacetime rubber-sheet visualisation, built with Python, Pygame, and OpenGL.
  
