@@ -224,6 +224,7 @@ def screen_to_ray(mx, my):
     direction = np.array(far,  dtype=np.float64) - origin
     direction /= np.linalg.norm(direction)
     return origin, direction
+       
 def draw_grid(xs, zs, Y):
     nz, nx = len(zs), len(xs)
     glLineWidth(1.0)
