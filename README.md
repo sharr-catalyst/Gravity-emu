@@ -1,5 +1,5 @@
 # Gravity Simulator
-[![Python](https://img.shields.io/badge/Python-3.8+-purple?style=flat-square&logo=python)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.8+-yellow?style=flat-square&logo=python)](https://www.python.org/)
 [![OpenGL](https://img.shields.io/badge/OpenGL-2.1+-red?style=flat-square)](https://pypi.org/project/PyOpenGL/3.1.10/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](https://github.com/sharr-catalyst/Gravity-emu?tab=MIT-1-ov-file#readme)
  
