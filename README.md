@@ -2,6 +2,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-yellow?style=flat-square&logo=python)](https://www.python.org/)
 [![OpenGL](https://img.shields.io/badge/OpenGL-2.1+-red?style=flat-square)](https://pypi.org/project/PyOpenGL/3.1.10/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](https://github.com/sharr-catalyst/Gravity-emu?tab=MIT-1-ov-file#readme)
+[![Python package](https://github.com/sharr-catalyst/Gravity-emu/actions/workflows/python-package.yml/badge.svg)](https://github.com/sharr-catalyst/Gravity-emu/actions/workflows/python-package.yml)
 
 A real-time 3D N-body gravity simulator with a spacetime rubber-sheet visualisation, built with Python, Pygame, and OpenGL.
 
@@ -26,7 +27,7 @@ pip install pygame PyOpenGL PyOpenGL_accelerate numpy
 ## Running
 
 ```
-python gravity_sim.py
+python Gravity_em.py
 ```
 
 ---
@@ -130,10 +131,28 @@ Planets start at 82% of the circular orbit velocity, giving elliptical orbits th
 ## File structure
 
 ```
-gravity_sim.py   — entire simulation (single file, ~440 lines)
-README.md        — this file
+Gravity_em.py          — entire simulation (~440 lines)
+requirements.txt       — Python dependencies
+tests/
+    __init__.py        — marks tests as a package
+    test_sample.py     — unit tests (physics, warp, ray picking)
+.github/
+    workflows/
+        python-package.yml  — CI: tests on Python 3.9, 3.10, 3.11
+README.md              — this file
 ```
-
+ 
+---
+## Testing
+ 
+Tests run automatically on every push via GitHub Actions (Python 3.9, 3.10, 3.11).
+ 
+To run locally:
+```
+pip install pytest
+pytest
+```
+ 
 ---
 
 ## Known limitations
